@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SHREESHA - PERSONAL WEBSITE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?    
+     family=Montserrat:wght@200;800&family=Poppins:wght@400;700&family=Ubuntu:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        background-color: rgb(0, 0, 33);
+        color: white;
+        font-family: "Poppins", sans-serif;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 80px;
+        background-color: rgb(18, 18, 62);
+      }
+      .left {
+        font-size: 1.4rem;
+      }
+
+      mark {
+        background-color: #fcaeae;
+        font-size: 1.4rem;
+        margin-top: 2px;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0px 23px;
+      }
+      .firstsection {
+        display: flex;
+        justify-content: space-around; /*the above two lines help in making contents in left and right*/
+        margin: 57px 0px;
+      }
+      .firstsection > div {
+        width: 30%;
+      }
+      .leftsection {
+        font-size: 2rem;
+        margin: 17px 0px;
+        align-items: center;
+      }
+      .leftsection .btn a{
+        background :#1e2167 ;
+        border: 2px solid white;
+        border-radius: 6px;
+        cursor: pointer ;
+        font-size: 20px;
+        color: white;
+        padding: 12px;
+        margin-top: 16px;
+        margin-bottom: 3px;
+        width: min-content;;
+
+      }
+      .color {
+        color: rgb(171, 119, 220);
+      }
+      .link:hover {
+        color: aqua;
+      }
+      .rightsection img {
+        width: 80%;
+        margin: 50px 0px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(153, 153, 226);
+        font-size: 1.05rem;
+      }
+      #element {
+        color: aquamarine;
+      }
+      .secondclass {
+        max-width: 80vw;
+        margin: auto;
+        height:80vh;
+      }
+      .btn{
+        height: 10vh;
+        width: 15.8vw;
+      }
+      
+      .dot {
+        height: 15px;
+        width: 15px;
+        background-color: rgb(153, 153, 226);
+        border-radius: 50%;
+        display: inline-block;
+      }
+      .secondclass h1{
+        font-size: 1.8rem;
+      }
+      .gray{
+        color:grey;
+      }
+      .secondclass .box{
+        background-color:white ;
+        width: 80vw;
+        height: 2px;
+        margin: 56px 0px;
+        display:flex;
+      }
+      .secondclass .vertical{
+        height: 50px;
+        width: 2px;
+        background-color: white;
+        margin: 0px 100px;
+      }
+      .top-image{
+        width:65px;
+        height:34px;
+        position: relative;
+        top: -36px;
+        left: -63px;
+      }
+      .vertical-title{
+        position: relative;
+        top: 13px;
+        width: 98px;
+
+      }
+      .vertical-text{
+        position: relative;
+        top: 13px;
+        width: 150px;
+        color: grey;
+        font-size: 12px;    
+      }
+      .circles{
+        margin-bottom: 35px;
+        padding: 12px;
+      }
+      footer{
+        background-color:#0e0e1a ;
+        height: 200px;
+      }
+      .footer{
+        display: flex;
+        font-size:0.95rem;
+        padding:54px 124px;
+        justify-content:space-evenly ;
+      }
+      .small{
+        font-size: medium;
+      }
+      .footer .footer-rights{
+        text-align: center;
+        color:grey;
+
+      }
+      .second{
+        margin-bottom: 0px;
+        padding-bottom: 0px;
+      }
+      @media screen and (max-width:800px) {
+        body{
+          background-color: red;
+        }
+        .firstsection{
+          flex-direction: row;
+        }
+      }
+        @media all and (max-width:676px){
+          a .btn{
+          display:block;
+          margin:0.4em auto;
+          }
+      }
+    </style>
+
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left assign">
+            👨‍💻 Shreesha's Portfolio
+           </div>
+        <div class="right">
+          <ul>
+            <li><a href="F:\porfolio-website\index.html">Home</a></li>
+            <li><a href="#second">About</a></li>
+            <li><a href="https://forms.gle/Xkq9gV3kvP3AhBdb9">Connecting Me</a></li>
+            <li><a href="F:\porfolio-website\project">Projects</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="firstsection" id="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="color">Shreesha</span>.
+          <div>
+            I am a student in
+            <a class="link" href="https://nmamit.nitte.edu.in/">NMAMIT</a>
+            located in karnataka,india.
+            <br>
+            <button class="btn"><a href="F:\porfolio-website\resume.docx"><i>Download Resume</i></a></button>
+          </div>
+          <br><span id="element"></span>
+        </div>
+        <div class="rightsection">
+          <img src="bg.png" />
+        </div>
+      </section>
+      <div  class="circles" style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+      <section class="secondclass" id="second">
+        <h1>About Me</h1>
+        <span class="gray">What my short journey was all about</span>
+        <div class="box">
+          <div class="vertical">
+            <img class="top-image" src="high.jpg">
+            <div class="vertical-title">
+              High school (2018-2020)
+            </div>
+            <div class="vertical-text">
+              I have done my high schooling from  <a class="link" href="https://alikeonline.org/vidya-kendra/">
+                SSSLSVK</a>,which is located in Dakshina kannada district.
+                This is a spiritual school with world class education and you can also enjoy nature's beauty there.
+            </div>
+            </img>
+          </div>
+          <div class="vertical">
+            <img class="top-image" src="pu.png">
+            <div class="vertical-title">
+              Pre-University (2021-2022)
+            </div>
+            <div class="vertical-text">
+              I have done my high PU from  
+                PoornaPrajna College,udupi.
+                This is a college with great lectures.Here we were given coaching on competitive exams too.
+                An abode of education.
+            </div>
+            </img>
+          </div>
+          <div class="vertical">
+            <img class="top-image" src="university.webp">
+            <div class="vertical-title">
+              Engineering (2022-2026)
+            </div>
+            <div class="vertical-text">
+              I have done my Engineering from  <a class="link" href="https://nmamit.nitte.edu.in/">
+                NMAMIT</a>,which is located in karkala,udupi district.
+                It is  recognized for its quality education and contributions to the field of technical education.
+            </div>
+            </img>
+
+          </div>
+          <div class="vertical">
+            <img class="top-image" src="Internship.jpg">
+            <div class="vertical-title">
+              Awaiting with all intrest
+            </div>
+            <div class="vertical-text">
+             I may be having no experience but full of intrest for doing something great. 
+             As said my great people that every successful person once was beginner.
+             I will be greatly thank you if you could give an opportunity.
+            </div>
+            </img>
+
+          </div>
+          <div class="vertical">
+            <img class="top-image" src="awards.jpg">
+            <div class="vertical-title">
+              Awards
+            </div>
+            <div class="vertical-text">
+             I have been a great student from my schooling. I have won <b><i>quiz</b></i> competition conducted by 
+             vijay karnataka in <b><i>10th Grade,12th Grade</b></i> which was conducted by yenapoya university.
+             In NMAMIT I have won <b><i></i>genral quiz and essay competion</i></b>
+            </div>
+            </img>
+
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <div class="first">
+          <h3><b><i>Shreesha's Portfolio Website</i></b> </h3>
+        </div>
+        <div class="second">
+          <ul>
+            <li><a href="#firstsection" class="link">Back to The top</a></li>
+            <li>Official email- <mark class="small">nnm22is161@nmamit.in</mark></li>
+            <li>Resident of Karnataka,India.</li>
+            <li><a href="#second" class="link">Know about Me</a></li>
+          </ul>
+        </div>
+      </div>
+        <center>
+        <div class="text">
+          💖 THANK YOU FOR VISITING THIS PAGE.🙏
+        </div>
+        <div class="footer-rights">
+          copyright &#169; All rights reserved.
+        </div>
+
+      </center>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "I am a excited WEB DEVELOPER",
+          "who is aspiring to learn Machine Learning too.",
+          "Your suggestions will be greatly respected.",
+          "THANK YOU🙏",
+        ],
+        typeSpeed: 100,
+      });
+    </script>
+  </body>
+</html>
